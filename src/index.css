@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-logo: "Pacifico", cursive;
+  --color-brand: #8b5cf6;
+  --color-brand-dark: #7c3aed;
+  --color-card: #111113;
+  --color-line: #27272a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black text-white font-sans antialiased;
+}
+
+section[id] {
+  scroll-margin-top: 4rem;
+}
